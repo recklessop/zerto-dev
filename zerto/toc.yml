@@ -1,0 +1,117 @@
+﻿- name: Zerto Technical Documentation
+  href: index.md
+- name: Overview
+  expanded: true
+  items:
+  - name: About Zerto
+    href: zerto-overview.md
+  - name: What's new in Zerto
+    href: zerto-whats-new.md
+- name: Quickstarts
+  items:
+  - name: "6.5 Update 3"
+    herf: release-notes-6-5-u3.md 
+  - name: Replicate an VM to Multiple Recovery Sites
+    href: zerto-multisite-quickstart.md
+  - name: Replicate an Azure VM to another region
+    href: azure-to-azure-quickstart.md
+- name: Tutorials
+  items:
+  - name: VMware disaster recovery
+    items:
+  - name: Hyper-V disaster recovery
+    items:
+  - name: Azure disaster recovery
+    items:
+  - name: AWS failback
+    items:
+  - name: Migrate to Azure
+    items:
+  - name: Move Azure VMs
+    items:
+- name: How-to Guides
+  items:
+  - name: Azure to Azure disaster recovery
+    items:
+    - name: Set up networking
+      items:
+    - name: Set up disaster recovery
+      items:
+    - name: Manage
+      items:
+  - name: VMware to Azure disaster recovery
+    items:
+    - name: Set up networking
+      items:
+    - name: Run failover and failback
+      items:
+    - name: Manage
+      items: 
+  - name: Hyper-V to Azure disaster recovery
+    items:
+    - name: Set up networking
+      items:
+    - name: Perform capacity planning
+      items:
+      - name: Deployment Planner tool for Hyper-V replication to Azure
+        items:
+    - name: Set up disaster recovery
+      items:
+    - name: Run failover and failback
+      items:
+    - name: Manage
+      items:
+  - name: Disaster recovery for apps
+    items:
+    - name: SQL Server
+      href: zerto-for-sql.md
+    - name: Exchange
+      href: zerto-for-workloads.md#protect-exchange
+    - name: SAP
+      href: zerto-for-sap.md
+    - name: File Server
+      href: zerto-for-file-servers.md
+    - name: Other workloads
+      href: zerto-for-workloads.md#workload-summary
+- name: Automation
+  items:
+- name: Monitor and troubleshoot
+  items:
+  - name: Monitor Azure Site Recovery
+    href: zerto-monitor-and-troubleshoot.md
+  - name: Azure VMs
+    items:
+  - name: VMware
+    items: 
+    - name: Troubleshoot VMware to Azure replication
+      href: vmware-azure-troubleshoot.md 
+  - name: Hyper-V
+    items:
+    - name: Troubleshoot Hyper-V replication
+      href: hyper-v-azure-troubleshoot.md
+- name: Reference
+  items: 
+  - name: REST
+    href: https://msdn.microsoft.com/library/mt750497
+- name: Related
+  items:
+  - name: REST API
+    href: /restapi/
+  - name: PowerShell CMDlets
+    href: /powershell/
+- name: Resources
+  items:
+  - name: Azure Roadmap
+    href: https://azure.microsoft.com/roadmap/
+  - name: Blog
+    href: http://azure.microsoft.com/blog/tag/azure-site-recovery/
+  - name: Forum
+    href: https://social.msdn.microsoft.com/Forums/azure/en-US/home?forum=hypervrecovmgr
+  - name: Learning path
+    href: https://azure.microsoft.com/documentation/learning-paths/site-recovery/
+  - name: Pricing
+    href: https://azure.microsoft.com/pricing/details/site-recovery/
+  - name: Pricing calculator
+    href: https://azure.microsoft.com/pricing/calculator/
+  - name: Service updates
+    href: https://azure.microsoft.com/updates/?product=site-recovery

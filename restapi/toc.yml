@@ -1,0 +1,45 @@
+﻿- name: Zerto REST API Intro
+  href: index.md
+- name: Quickstarts
+  expanded: true
+  items:
+  - name: Replicate an VM to Multiple Recovery Sites
+    href: zerto-multisite-quickstart.md
+  - name: Replicate an Azure VM to another region
+    href: azure-to-azure-quickstart.md
+- name: Tutorials
+  items:
+  - name: Azure VM disaster recovery to Azure
+    items:
+    - name: Enable replication
+      href: azure-to-azure-tutorial-enable-replication.md
+    - name: Run a disaster recovery drill
+      href: azure-to-azure-tutorial-dr-drill.md
+    - name: Run failover and failback
+      href: azure-to-azure-tutorial-failover-failback.md
+- name: Reference
+  items: 
+  - name: REST
+    href: https://msdn.microsoft.com/library/mt750497
+- name: Related
+  items:
+  - name: REST API
+    href: /rest/
+  - name: PowerShell CMDlets
+    href: /powershell/
+- name: Resources
+  items:
+  - name: Azure Roadmap
+    href: https://azure.microsoft.com/roadmap/
+  - name: Blog
+    href: http://azure.microsoft.com/blog/tag/azure-site-recovery/
+  - name: Forum
+    href: https://social.msdn.microsoft.com/Forums/azure/en-US/home?forum=hypervrecovmgr
+  - name: Learning path
+    href: https://azure.microsoft.com/documentation/learning-paths/site-recovery/
+  - name: Pricing
+    href: https://azure.microsoft.com/pricing/details/site-recovery/
+  - name: Pricing calculator
+    href: https://azure.microsoft.com/pricing/calculator/
+  - name: Service updates
+    href: https://azure.microsoft.com/updates/?product=site-recovery

@@ -1,0 +1,40 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [ 
+          "*.md", 
+          "toc.yml", 
+          "analytics/**/*.md",
+          "analytics/**/*.yml",
+          "powershell/**/*.md", 
+          "powershell/**/*.yml",
+          "restapi/**/*.md", 
+          "restapi/**/*.yml",
+          "zerto/**/*.md",
+          "zerto/**/*.yml"
+          ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [ 
+          "media/**", 
+          "analytics/images/**", 
+          "powershell/images/**", 
+          "restapi/images/**", 
+          "zerto/images/**", 
+          "*.png", 
+          "*.ico"]
+      }
+    ],
+    "globalMetadata": {
+      "_appTitle": "Zerto API Docs",
+      "_enableSearch": true,
+      "_appLogoPath": "media/zerto-logo.png"
+    },
+    "markdownEngineName": "markdig",
+    "dest": "_site",
+    "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
+  }
+}
