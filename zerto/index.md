@@ -1,6 +1,6 @@
 # Zerto Docs
 
-## Zerto Virtual Replication
+## What is Zerto Virtual Replication
 
 Zerto Virtual Replication provides a business continuity (BC) and disaster recovery (DR) solution in a virtual environment, providing near real-time replication, with write-order fidelity, with minimal impact on product workloads. Fully automated orchestration delivers failover, failback, and reverse protection in one click. Non-disruptive disaster recovery testing gives you confidence that your DR solution will work predictably and consistently. Consistency groups ensure all virtual machines that comprise an application are protected in the exact same manner no matter where they are in the environment.
 
@@ -12,7 +12,7 @@ You configure replication by first pairing the site with the virtual machines to
 
 Disaster recovery is based on the premise that you will want to recover with a minimum RPO. However, to enable full recovery in cases such as virus attacks, Zerto Virtual Replication provides the ability to recover to a point in time up to 30 days prior to the disaster. When recovery earlier than 30 days is required, Zerto Virtual Replication provides an extended recovery, using a Long Term Retention process mechanism that enables you to recover to a recovery site based on daily, weekly or monthly retention sets, going as far back as a year. The majority of the processing for both disaster recovery and extended recovery is done at the recovery site, minimizing the impact on the production site.
 
-## Support
+## Getting Support
 
 Zerto delivers enterprise-class support services that are built into all of our products. These services include real time alerts when RPO/ RTO targets are not being met, network degradation alarms and reminders to check configurations and Virtual Protection Groups. Zerto solutions are also backed by global support service centers that provide on-demand access to an expert team of support engineers.
 
