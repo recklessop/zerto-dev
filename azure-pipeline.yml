@@ -1,0 +1,28 @@
+pool:
+  name: Azure Pipelines
+  demands: azureps
+
+steps:
+- powershell: |
+   choco install docfx -y
+   docfx docfx.json
+   if ($lastexitcode -ne 0){
+       throw ("Error generating document")
+   }
+  displayName: 'PowerShell Script'
+
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: site'
+  inputs:
+    PathtoPublish: '_site'
+    ArtifactName: site
+
+- task: AzureFileCopy@2
+  displayName: 'AzureBlob File Copy'
+  inputs:
+    SourcePath: '_site'
+    azureSubscription: 'Pay-As-You-Go (c0544138-8557-4fb1-a0bc-62a8d478be28)'
+    Destination: AzureBlob
+    storage: zertoinfo
+    ContainerName: '$web'
