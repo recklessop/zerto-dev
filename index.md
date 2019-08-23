@@ -1,4 +1,12 @@
-# Zerto Technical Documentation
+# Zerto.DEV
+
+## What is Zerto.DEV
+
+This site is an open source site that YOU can help with! The idea is to share. Share code, share designs, share reference architectures, and build community based documentation. All of which can be reviewed and contributed to by anyone.
+
+## What Zerto.DEV is NOT
+
+Zerto.dev is not owned, operated, or sponsored by Zerto. Zerto also does not support this site. So if you use code, or scripts from this site, make sure you know what you are doing and don't expect Zerto support to fix this that come from here.
 
 ## What is Zerto Virtual Replication
 
